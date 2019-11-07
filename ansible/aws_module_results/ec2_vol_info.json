@@ -1,0 +1,27 @@
+{
+    "_ansible_no_log": false,
+    "volumes": [
+        {
+            "status": "in-use",
+            "zone": "",
+            "tags": {
+                "key": "value",
+                "key": "value"
+            },
+            "encrypted": false,
+            "region": "aws_region",
+            "iops": 100,
+            "create_time": "2019-04-01T13:37:26.360000+00:00",
+            "snapshot_id": "snap-id",
+            "attachment_set": {
+                "device": "/dev/xvda",
+                "instance_id": "i-id",
+                "status": "attached",
+                "delete_on_termination": true,
+                "attach_time": "2019-04-01T13:37:26+00:00"
+            },
+            "type": "gp2",
+            "id": "vol-id",
+            "size": 8
+        }
+}
